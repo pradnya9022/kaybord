@@ -1,0 +1,249 @@
+.body{
+    background-color: rgb(189, 171, 218);
+}
+
+.keybord{
+      height: 550px;
+      width: 850px;
+      justify-content: center;
+      background-image:url("https://media.istockphoto.com/id/1429701799/photo/raindrops-on-asphalt-rain-rainy-weather-downpour.webp?b=1&s=170667a&w=0&k=20&c=lXXWPQuhXI4xZRrr8d1uZGjQasuR-oRS1_GraXO9Fd0=");
+      background-size: cover;
+      border-radius: 3%;
+      padding-top: 5%;
+      margin: 2% 80px;
+      transition: 2s;
+    }
+
+    .keybord:hover {
+        background-color: rgb(187, 150, 166);
+        border-radius: 7px;
+        box-shadow: 0px 2px 3px 1px rgb(185, 112, 112);
+        border: rgb(207, 152, 152);
+        transform: scale(0.9);
+        color: black;
+    }
+
+    .roman{
+        height: 15%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0% 5%;
+        transition: 2s;
+    }
+
+    .number{
+        height: 40px;
+        width: 40px;
+        border: 1px solid;
+        box-shadow: 0px 2px 3px 1px rgb(233, 225, 225);
+        text-align: center;
+        color: antiquewhite;
+        transition: 1s;
+    }
+
+
+    .number:hover {
+        background-color: rgb(187, 150, 166);
+        border-radius: 7px;
+        box-shadow: 0px 2px 3px 1px rgb(185, 112, 112);
+        border: rgb(207, 152, 152);
+        transform: scale(0.9);
+        cursor: pointer;
+        color: black;
+    }
+
+    .backs{
+         width: 80px;
+         text-align: center;
+    }
+
+    .line{
+        height: 15%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0% 5%;
+    }
+
+    .secline{
+        height: 40px;
+        width: 40px;
+        border: 1px solid;
+        box-shadow: 0px 2px 3px 1px rgb(233, 225, 225);
+        text-align: center;
+        color: antiquewhite;
+        transition: 1s;
+    }
+
+    .secline:hover {
+        background-color: rgb(187, 150, 166);
+        border-radius: 7px;
+        box-shadow: 0px 2px 3px 1px rgb(185, 112, 112);
+        border: rgb(207, 152, 152);
+        transform: scale(0.9);
+        cursor: pointer;
+        color: black;
+    }
+
+    .tab{
+        width: 70px;
+    }
+
+    .thired{
+        height: 15%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0% 5%;
+        //background-color: aqua;
+    }
+
+    .three{
+        height: 40px;
+        width: 40px;
+        border: 1px solid;
+        box-shadow: 0px 2px 3px 1px rgb(233, 225, 225);
+        text-align: center;
+        color: antiquewhite;
+        transition: 1s;
+    }
+
+    .three:hover {
+        background-color: rgb(187, 150, 166);
+        border-radius: 7px;
+        box-shadow: 0px 2px 3px 1px rgb(185, 112, 112);
+        border: rgb(207, 152, 152);
+        transform: scale(0.9);
+        cursor: pointer;
+        color: black;
+    }
+
+    .cl{
+        width: 10%;
+    }
+
+    .four{
+        height: 14%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0% 5%;
+    }
+
+    .fourth{
+        height: 40px;
+        width: 40px;
+        border: 1px solid;
+        box-shadow: 0px 2px 3px 1px rgb(233, 225, 225);
+        text-align: center;
+        color: antiquewhite;
+        transition: 1s;
+    }
+
+    .fourth:hover {
+        background-color: rgb(187, 150, 166);
+        border-radius: 7px;
+        box-shadow: 0px 2px 3px 1px rgb(185, 112, 112);
+        border: rgb(207, 152, 152);
+        transform: scale(0.9);
+        cursor: pointer;
+        color: black;
+    }
+
+    .st{
+        width: 60px;
+    }
+
+    .fifth{
+        height: 11%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0% 5%;
+    }
+
+    .lastrow{
+        height: 40px;
+        width: 40px;
+        border: 1px solid;
+        box-shadow: 0px 2px 3px 1px rgb(233, 225, 225);
+        text-align: center;
+        color: antiquewhite;
+        transition: 1s;
+    }
+
+    .lastrow:hover {
+        background-color: rgb(187, 150, 166);
+        border-radius: 7px;
+        box-shadow: 0px 2px 3px 1px rgb(185, 112, 112);
+        border: rgb(207, 152, 152);
+        transform: scale(0.9);
+        cursor: pointer;
+        color: black;
+    }
+
+    .lw{
+        width: 200px;
+    }
+
+    .lw:hover{
+        background-color: rgb(201, 190, 190);
+    }
+
+    .lastbut{
+        height: 5%;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        margin: 0% 5%;
+        padding-left: 21%;
+    }
+
+    .button{
+        height: 80%;
+        width: 45%;
+        border: 1px solid;
+        box-shadow: 0px 2px 3px 3px rgb(233, 225, 225);
+        color: antiquewhite;
+        transition: 1s;
+    }
+
+    .button:hover {
+        background-color: rgb(209, 178, 178);
+        border-radius: 7px;
+        box-shadow: 0px 2px 2px 1px rgb(192, 143, 143);
+        border: rgb(207, 152, 152);
+        transform: scale(1.1);
+        cursor: pointer;
+        color: black;
+    }
+
+    .s{
+        height: 18%;
+        width: 72%;
+        padding-left: 23%;
+        justify-content: center;
+        margin: 0% 5%;
+    }
+
+    .p{
+        height: 100%;
+        width: 50%;
+        box-shadow: 0px 3px 3px 2px rgb(233, 225, 225);
+        color: antiquewhite;
+        transition: 1s;
+    }
+
+    .p:hover {
+        background-color: rgb(134, 132, 133);
+        border-radius: 4px;
+        border: rgb(207, 152, 152);
+        transform: scale(1.0);
+        cursor: pointer;
+        color: black;
+    }
+
+    .buttonlast{
+        box-shadow: 0px 2px 3px 3px;
+    }
